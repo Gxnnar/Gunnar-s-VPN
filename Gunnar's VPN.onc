@@ -2,33 +2,33 @@
   "Type": "UnencryptedConfiguration",
   "Certificates": [
     {
-      "GUID": "{9ae6d31d-830f-4d06-9abf-b4c2aace4236}",
+      "GUID": "{c7a59761-03cd-48e5-bd08-b99e6903b673}",
       "Type": "Authority",
       "X509": "MIIErzCCA5egAwIBAgIJAMYKzSS8uPKDMA0GCSqGSIb3DQEBDQUAMIGVMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxFDASBgNVBAcTC1dpbnRlciBQYXJrMREwDwYDVQQKEwhJUFZhbmlzaDEVMBMGA1UECxMMSVBWYW5pc2ggVlBOMRQwEgYDVQQDEwtJUFZhbmlzaCBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBpcHZhbmlzaC5jb20wIBcNMjIwNTA5MjAyMDQ1WhgPMjA4MjA0MjQyMDIwNDVaMIGVMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxFDASBgNVBAcTC1dpbnRlciBQYXJrMREwDwYDVQQKEwhJUFZhbmlzaDEVMBMGA1UECxMMSVBWYW5pc2ggVlBOMRQwEgYDVQQDEwtJUFZhbmlzaCBDQTEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBpcHZhbmlzaC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC30MFY2v8go65jdOYM/nHu9hlHQMbEttdTxPIDMFuNS0UUxuHGUeJdVCtkeaDOKH3jHsGBczu1amYwphVv6A1qox1YTrzRCbec7CaHL926VcOQQcDAPTmL+JPHhlpR21Xa+woHFGDW90LgASLAPtupXgc6LXfFwb3vVpDnkyPUp4J0DRo2+lq3UtbHaONbGx8jyzYu/kWSiLUc7X69OedoSwlmsGACQteki2o/b0uKTf84Ei+QEjGUquGJU+LETmo2IP55I+KuyZE6+zIiiegm25jgPDkrqlw2UrJiLCjUg4VhTdjF9/AUmT5tJbhZUGGx1/l0bGr+44ea7PmB3DELAgMBAAGjgf0wgfowDAYDVR0TBAUwAwEB/zAdBgNVHQ4EFgQUS/0UJYkd58Fwg9f2nxEcJU4Z7q4wgcoGA1UdIwSBwjCBv4AUS/0UJYkd58Fwg9f2nxEcJU4Z7q6hgZukgZgwgZUxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJGTDEUMBIGA1UEBxMLV2ludGVyIFBhcmsxETAPBgNVBAoTCElQVmFuaXNoMRUwEwYDVQQLEwxJUFZhbmlzaCBWUE4xFDASBgNVBAMTC0lQVmFuaXNoIENBMSMwIQYJKoZIhvcNAQkBFhRzdXBwb3J0QGlwdmFuaXNoLmNvbYIJAMYKzSS8uPKDMA0GCSqGSIb3DQEBDQUAA4IBAQCc9JV7IR8BfBrF/BQTXg0SZMZyyMAxR2jfW9qMHKSeJuZVVjfHiqoynEgBCNbn71wZWv3OF/Thu9BJ4GiYJ2Bc9nIa90D1NGYgiOVYLGXfUUqy5FgfrsWh0Go5oYm9l7W9pWfIifwsaZynkY0rTIHn32FF0H3+wZrGrEUzVL6qi+KD8iR3cBbLT+xUzulMTBp4JYaQnxpV4fZNS0ZsNrWKFWz4Iz1SSBcsnvUhfWs1aKx4yOJQx33Pc+KwpUI+meTlMjoh+AoTriooKU2MbOqLQl32y3pR0MP3fX4HDVFRylxdckEc+VryGNHQLUJiIBKBCORih/YiRhtEhpoBxmkw"
     }
   ],
   "NetworkConfigurations": [
     {
-      "GUID": "{6cfb9951-c2fe-43b1-a653-a6a2e42b5b19}",
+      "GUID": "{2045c3ba-14a3-42dd-bdc6-0826f1dded58}",
       "Name": "Gunnar's VPN",
       "Type": "VPN",
       "VPN": {
         "Type": "OpenVPN",
-        "Host": "adv-c01.ipvanish.com",
+        "Host": "dxb-c01.ipvanish.com",
         "OpenVPN": {
           "Port": 443,
           "UserAuthenticationType": "Password",
           "CompLZO": "true",
           "SaveCredentials": true,
           "VerifyX509": {
-            "Name": "adv-c01.ipvanish.com",
+            "Name": "dxb-c01.ipvanish.com",
             "Type": "name"
           },
           "Proto": "udp",
           "Cipher": "AES-256-CBC",
           "Auth": "SHA256",
           "ServerCARefs": [
-            "{9ae6d31d-830f-4d06-9abf-b4c2aace4236}"
+            "{c7a59761-03cd-48e5-bd08-b99e6903b673}"
           ],
           "ClientCertType": "None"
         }
